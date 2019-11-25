@@ -11,12 +11,7 @@ ActiveAdmin.register Download do
     end
   end
   
-  def update
-    super do |format|
-      redirect_to collection_url and return if resource.valid?
-    end
-  end
-end
+  
  
 #
 # or
